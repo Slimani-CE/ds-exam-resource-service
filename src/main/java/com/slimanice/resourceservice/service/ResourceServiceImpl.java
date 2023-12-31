@@ -22,8 +22,7 @@ public class ResourceServiceImpl implements ResourceService {
 
     @Override
     public ResourceResponseDTO saveResource(ResourceRequestDTO resourceRequestDTO) {
-        Resource resource = resourceRepository.save(resourceMapper.mapToResource(resourceRequestDTO));
-        Resource savedResource = resourceRepository.save(resource);
+        Resource savedResource = resourceRepository.save(resourceMapper.mapToResource(resourceRequestDTO));
         return resourceMapper.mapToResourceResponseDTO(savedResource);
     }
 

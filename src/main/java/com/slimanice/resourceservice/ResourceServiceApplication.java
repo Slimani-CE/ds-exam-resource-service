@@ -27,7 +27,7 @@ public class ResourceServiceApplication {
 	CommandLineRunner start() {
 		return args -> {
 			// Create mockup data for testing
-			List.of("HP Laptop", "Dell Laptop", "Asus Laptop", "Printer", "Scanner", "Projector", "Server").forEach(name -> {
+			List.of("HP Laptop", "Printer", "Scanner", "Projector", "Server").forEach(name -> {
 				resourceService.saveResource(ResourceRequestDTO.builder()
 								.type(new Random().nextDouble() > 0.5 ? ResourceType.INFO_MATERIAL : ResourceType.VIDEO_AUDIO_MATERIAL)
 								.name(name)
