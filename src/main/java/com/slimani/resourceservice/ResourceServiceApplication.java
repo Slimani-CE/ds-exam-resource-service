@@ -1,8 +1,8 @@
-package com.slimanice.resourceservice;
+package com.slimani.resourceservice;
 
-import com.slimanice.resourceservice.dto.ResourceRequestDTO;
-import com.slimanice.resourceservice.enums.ResourceType;
-import com.slimanice.resourceservice.service.ResourceServiceImpl;
+import com.slimani.resourceservice.dto.ResourceRequestDTO;
+import com.slimani.resourceservice.enums.ResourceType;
+import com.slimani.resourceservice.service.ResourceServiceImpl;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

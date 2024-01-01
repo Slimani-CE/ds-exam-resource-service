@@ -1,7 +1,7 @@
-package com.slimanice.resourceservice.controller;
+package com.slimani.resourceservice.controller;
 
-import com.slimanice.resourceservice.dto.ResourceResponseDTO;
-import com.slimanice.resourceservice.service.ResourceService;
+import com.slimani.resourceservice.dto.ResourceResponseDTO;
+import com.slimani.resourceservice.service.ResourceService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,6 +1,6 @@
-package com.slimanice.resourceservice.dto;
+package com.slimani.resourceservice.dto;
 
-import com.slimanice.resourceservice.enums.ResourceType;
+import com.slimani.resourceservice.enums.ResourceType;
 import lombok.*;
 
 @Getter @Setter @Builder

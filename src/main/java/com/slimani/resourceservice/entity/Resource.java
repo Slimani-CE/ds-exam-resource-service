@@ -1,6 +1,6 @@
-package com.slimanice.resourceservice.entity;
+package com.slimani.resourceservice.entity;
 
-import com.slimanice.resourceservice.enums.ResourceType;
+import com.slimani.resourceservice.enums.ResourceType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

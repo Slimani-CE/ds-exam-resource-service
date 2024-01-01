@@ -1,8 +1,8 @@
-package com.slimanice.resourceservice.mapper;
+package com.slimani.resourceservice.mapper;
 
-import com.slimanice.resourceservice.dto.ResourceRequestDTO;
-import com.slimanice.resourceservice.dto.ResourceResponseDTO;
-import com.slimanice.resourceservice.entity.Resource;
+import com.slimani.resourceservice.dto.ResourceRequestDTO;
+import com.slimani.resourceservice.dto.ResourceResponseDTO;
+import com.slimani.resourceservice.entity.Resource;
 import org.springframework.stereotype.Component;
 
 @Component

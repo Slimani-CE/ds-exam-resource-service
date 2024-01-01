@@ -1,7 +1,7 @@
-package com.slimanice.resourceservice.service;
+package com.slimani.resourceservice.service;
 
-import com.slimanice.resourceservice.dto.ResourceRequestDTO;
-import com.slimanice.resourceservice.dto.ResourceResponseDTO;
+import com.slimani.resourceservice.dto.ResourceRequestDTO;
+import com.slimani.resourceservice.dto.ResourceResponseDTO;
 
 import java.util.List;
 

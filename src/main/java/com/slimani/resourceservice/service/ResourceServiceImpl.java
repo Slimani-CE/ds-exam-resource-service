@@ -1,14 +1,13 @@
-package com.slimanice.resourceservice.service;
+package com.slimani.resourceservice.service;
 
-import com.slimanice.resourceservice.dto.ResourceRequestDTO;
-import com.slimanice.resourceservice.dto.ResourceResponseDTO;
-import com.slimanice.resourceservice.entity.Resource;
-import com.slimanice.resourceservice.mapper.ResourceMapper;
-import com.slimanice.resourceservice.repository.ResourceRepository;
+import com.slimani.resourceservice.dto.ResourceRequestDTO;
+import com.slimani.resourceservice.dto.ResourceResponseDTO;
+import com.slimani.resourceservice.entity.Resource;
+import com.slimani.resourceservice.mapper.ResourceMapper;
+import com.slimani.resourceservice.repository.ResourceRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.UUID;
 
 @Service
 public class ResourceServiceImpl implements ResourceService {
